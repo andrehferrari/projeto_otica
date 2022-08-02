@@ -1,0 +1,35 @@
+.capa {
+    background-image: url('../../../assets/capa.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 80vh;
+}
+
+.elements-capa {
+    color: #fff;
+    height: 100%;
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
+    font-family: 'Anybody', cursive;
+    max-width: 1024px;
+}
+
+.elements-capa p {
+    font-size: 36px;
+    color: rgb(196, 196, 196);
+    max-width: 500px;
+}
+
+.elements-capa h1 {
+    color: #fff;
+    font-size: 50px;
+    margin: 0;
+    letter-spacing: 5px;
+    line-height: 70px;
+    max-width: 500px;
+}
