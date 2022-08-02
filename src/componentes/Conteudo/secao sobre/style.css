@@ -1,0 +1,47 @@
+section {
+    width: 100%;
+    background-color: #F8F8F8;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.container {
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+.secao_paragrafo {
+    line-height: 32px;
+}
+
+.galeria_sobre {
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.cards{
+    width: 50%;
+    max-height: 300px;
+    border: 1px solid #a2adad;
+}
+
+.texto {
+    background-color: #fff;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.texto h3{
+    font-size: 36px;
+    font-family: cursive;
+    letter-spacing: 5px;
+    line-height: 42px;
+}
+
+.texto p {
+    font-size: 22px;
+    color: #4a4a4a;
+}

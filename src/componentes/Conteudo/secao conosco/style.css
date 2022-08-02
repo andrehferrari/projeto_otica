@@ -1,0 +1,46 @@
+.sessao_contato {
+    width: 100%;
+    text-align: center;
+    color: #fff;
+    padding: 100px 20px;
+    background-color: #05031b;
+}
+
+.container {
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+.elementos_contato {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.elementos_midia {
+    display: flex;
+    padding: 15px;
+    flex-direction: column;
+}
+
+.titulo_conosco {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.item_midia {
+    display: flex;
+    margin: 5px;
+    font-size: 14px;
+    
+}
+
+.item_midia img {
+    width: 18px;
+    margin-right: 14px;
+}
+
+.sessao_texto_conosco {
+    font-size: 22px;
+}
