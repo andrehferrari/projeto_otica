@@ -7,7 +7,7 @@ import img4 from '../../../assets/oculos04.png'
 
 export default function Produto () {
     return(
-        <section>
+        <section id='sessao_produto'>
             <div className='container'>
                 <div>
                     <h2>NOSSOS PRODUTOS</h2>

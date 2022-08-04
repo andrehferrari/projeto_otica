@@ -9,7 +9,7 @@ import imgTwitter from '../../../assets/tt.png'
 
 export default function Conosco () {
     return(
-        <section className='sessao_contato'>
+        <section id='sessao_contato'>
             <div className='container'>
                 <div className='sessao_texto_conosco'>
                     <h3>FALE CONOSCO</h3>

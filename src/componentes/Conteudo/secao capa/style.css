@@ -33,3 +33,22 @@
     line-height: 70px;
     max-width: 500px;
 }
+
+
+@media (max-width: 768px) {
+    .elements-capa {
+        font-size: 40px;
+        align-items: flex-start;
+    }
+
+    .elements-capa p{
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 550px) {
+    .capa {
+        background-position: 89% center;
+    }
+
+}

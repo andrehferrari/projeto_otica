@@ -29,3 +29,18 @@ header {
 .links a:hover {
     color: #0000CD;
 }
+
+@media (max-width: 550px) {
+    .container-topo {
+        flex-direction: column;
+    }
+
+    .links{
+        margin: 20px 0px;
+        border-top: 2px solid #aaadaf;
+    }
+
+    .img-logo {
+        margin-top: 20px;
+    }
+}

@@ -1,4 +1,4 @@
-section {
+#sessao_sobre {
     width: 100%;
     background-color: #F8F8F8;
     padding: 40px 20px;
@@ -45,3 +45,42 @@ section {
     font-size: 22px;
     color: #4a4a4a;
 }
+
+@media (max-width: 768px){
+    #sessao_sobre {
+        padding: 60px 20px;
+    }
+
+    .cards {
+        padding: 15px;
+    }
+
+    .cards h3 {
+        font-size: 22px;
+    }
+
+    .cards p {
+        font-size: 16px
+    }
+}
+
+@media (max-width: 768px){
+    #sessao_sobre  {
+        padding: 0px 10px;
+    }
+
+    .galeria_sobre {
+        flex-direction: column;
+    }
+
+    .cards {
+        width: 100%;
+        height: 300px;
+    }
+
+    .secao_paragrafo {
+        padding-top: 15px;
+    }
+
+}
+

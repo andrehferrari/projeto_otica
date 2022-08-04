@@ -9,9 +9,9 @@ export default function Topo () {
             <div className='container-topo'>
                 <img className='img-logo' src={Logo}/>
                 <nav className='links'>
-                    <a href='google.com'>PRODUTOS</a>
-                    <a href='google.com'>SOBRE</a>
-                    <a href='google.com'>CONTATO</a>
+                    <a href='#sessao_produto'>PRODUTOS</a>
+                    <a href='#sessao_sobre'>SOBRE</a>
+                    <a href='#sessao_contato'>CONTATO</a>
                 </nav>
             </div>
         </header>

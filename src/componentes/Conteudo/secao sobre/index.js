@@ -5,7 +5,7 @@ import imgAtendente from '../../../assets/atendimento.png'
 
 export default function Sobre () {
     return(
-        <section>
+        <section id='sessao_sobre'>
             <div className='container'>
                 <div className='secao_paragrafo'>
                     <h2>QUEM SOMOS NÓS</h2>

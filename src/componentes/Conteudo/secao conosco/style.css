@@ -1,4 +1,4 @@
-.sessao_contato {
+#sessao_contato {
     width: 100%;
     text-align: center;
     color: #fff;
@@ -43,4 +43,38 @@
 
 .sessao_texto_conosco {
     font-size: 22px;
+}
+
+@media (max-width: 768px) {
+    #sessao_contato {
+        padding: 60px 20px;
+    }
+}
+
+@media (max-width: 768px) {
+    #sessao_contato {
+        padding: 0px 10px;
+    }
+
+    .elementos_contato {
+        flex-direction: column;
+    }
+
+    .elementos_midia {
+        align-items: center;
+    }
+
+    .sessao_texto_conosco {
+        padding-top: 10px;
+        margin-top: 10px;
+    }
+
+    .sessao_texto_conosco h3 {
+        font-size: 20px;
+    }
+
+    .sessao_texto_conosco p {
+        font-size: 14px;
+    }
+
 }

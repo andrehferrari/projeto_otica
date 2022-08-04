@@ -1,4 +1,4 @@
-section{
+#sessao_produto{
     width: 100%;
     text-align: center;
     padding: 70px 20px;
@@ -56,6 +56,48 @@ section{
 }
 
 .sessao_lista ul li {
-    text-align: left;
-    margin: 5px;
+    text-align: center;
+    margin: 5px 0px;
+}
+
+
+
+@media (max-width: 768px){
+    #sessao_produto{
+        padding: 60px 20px;
+    }
+
+    .card-galeria h3{
+        font-size: 22px;
+    }
+
+    .card-galeria img{
+        max-height: 100px;
+    }
+
+    .card-galeria p{
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 550px){
+    #sessao_produto{
+        padding: 0px 10px;
+    }
+
+    .card-galeria {
+        width: 100%;
+    }
+
+    .sessao_lista ul{
+        width: 90%;
+    }
+
+    .sessao_lista ul li{
+        list-style: none;
+    }
+
+    .sessao_lista p{
+        font-weight: bold;
+    }
 }
